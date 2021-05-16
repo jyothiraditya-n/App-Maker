@@ -1,0 +1,29 @@
+#! /bin/bash
+# this is for promptig the user for starting the app
+read -p "start app?[y/n]" start
+# deals with a lower case y
+if [ $start == y ] 
+then
+echo "starting app..."
+cd exec
+./app-prompt
+fi
+# deals with an upper case y
+if [ $start == Y ]
+then
+echo "starting app..."
+cd exec
+./app-prompt
+fi
+# deals with a lower case n
+if [ $start == n ]
+then
+echo "closing app..."
+fi
+# deals with an upper case n
+if [ $start == N ]
+then
+echo "closing app..."
+fi
+
+

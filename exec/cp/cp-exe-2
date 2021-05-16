@@ -1,0 +1,9 @@
+#! /bin/bash
+read -p "Where do you want to save the file backup?(Directory must be writable and must exist, also use '\ ' instead of spaces) " location
+cd ..
+cd apps
+echo "copying the files..."
+cp app-exe-2 $location
+echo "finished copy"
+cd ..
+./app-prompt

@@ -1,0 +1,31 @@
+Minimum system requirements
+
+> Minimum: 40 Kb disk space 
+- Recommended: 2 Gb
+> Minimum: 35 Kb ram 
+- Recommended: 1 Gb
+> Minimum: Unix with bash and advanced bash functions and chmod as well as CLI 
+- Recommended: Linux 64 bit or 32 bit
+
+Initial setup:
+
+use cd to reach the containing folder of this file, then type,
+
+-----
+chmod +x first-run
+./first-run
+-----
+
+to start the app:
+
+-----
+./start
+-----
+
+all usage is self-explainitory, so I will not write it here.
+
+DO NOT RENAME THE EXECUTABLES WHILE SAVING !!!
+
+DO NOT MESS WITH THE APP FILESTRUCTURE !!!
+
+any questions, mail me at jyothiraditya.n@gmail.com

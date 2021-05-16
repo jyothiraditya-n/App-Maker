@@ -1,0 +1,323 @@
+#! /bin/bash
+echo "Hello,"
+cd ..
+cd config
+awk 'NR==1' name-config
+cd ..
+cd exec 
+read -p "what do you want to do?[type help for a list of commands] " request
+if [ $request == edit-1 ]
+then
+echo "preparing file 1 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-1
+cd ..
+cd chmod
+./chmod-exe-1
+fi
+if [ $request == edit-2 ]
+then
+echo "preparing file 2 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-2
+cd ..
+cd chmod
+./chmod-exe-2
+fi
+if [ $request == edit-3 ]
+then
+echo "preparing file 3 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-3
+cd ..
+cd chmod
+./chmod-exe-3
+fi
+if [ $request == edit-4 ]
+then
+echo "preparing file 4 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-4
+cd ..
+cd chmod
+./chmod-exe-4
+fi
+if [ $request == edit-5 ]
+then
+echo "preparing file 5 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-5
+cd ..
+cd chmod
+./chmod-exe-5
+fi
+if [ $request == edit-6 ]
+then
+echo "preparing file 6 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-6
+cd ..
+cd chmod
+./chmod-exe-6
+fi
+if [ $request == edit-7 ]
+then
+echo "preparing file 7 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-7
+cd ..
+cd chmod
+./chmod-exe-7
+fi
+if [ $request == edit-8 ]
+then
+echo "preparing file 8 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-8
+cd ..
+cd chmod
+./chmod-exe-8
+fi
+if [ $request == edit-9 ]
+then
+echo "preparing file 9 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-9
+cd ..
+cd chmod
+./chmod-exe-9
+fi
+if [ $request == edit-10 ]
+then
+echo "preparing file 10 for writing..."
+echo "preparing nano..."
+cd apps
+nano app-exe-10
+cd ..
+cd chmod
+./chmod-exe-10
+fi
+if [ $request == open-1 ]
+then
+echo "starting process : exe-1"
+cd apps
+./app-exe-1
+fi
+if [ $request == open-2 ]
+then
+echo "starting process : exe-2"
+cd apps
+./app-exe-2
+fi
+if [ $request == open-3 ]
+then
+echo "starting process : exe-3"
+cd apps
+./app-exe-3
+fi
+if [ $request == open-4 ]
+then
+echo "starting process : exe-4"
+cd apps
+./app-exe-4
+fi
+if [ $request == open-5 ]
+then
+echo "starting process : exe-5"
+cd apps
+./app-exe-5
+fi
+if [ $request == open-6 ]
+then
+echo "starting process : exe-6"
+cd apps
+./app-exe-6
+fi
+if [ $request == open-7 ]
+then
+echo "starting process : exe-7"
+cd apps
+./app-exe-7
+fi
+if [ $request == open-8 ]
+then
+echo "starting process : exe-8"
+cd apps
+./app-exe-8
+fi
+if [ $request == open-9 ]
+then
+echo "starting process : exe-9"
+cd apps
+./app-exe-9
+fi
+if [ $request == open-10 ]
+then
+echo "starting process : exe-10"
+cd apps
+./app-exe-10
+fi
+if [ $request == rm-1 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-1
+fi
+if [ $request == rm-2 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-2
+fi
+if [ $request == rm-3 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-3
+fi
+if [ $request == rm-4 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-4
+fi
+if [ $request == rm-5 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-5
+fi
+if [ $request == rm-6 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-6
+fi
+if [ $request == rm-7 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-7
+fi
+if [ $request == rm-8 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-8
+fi
+if [ $request == rm-9 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-9
+fi
+if [ $request == rm-10 ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-10
+fi
+if [ $request == rm-all ]
+then
+echo "prparing delete function..."
+cd del
+./rm-exe-all
+fi
+if [ $request == exit ]
+then
+cd other
+echo "closing the app..."
+./exit
+fi
+if [ $request == help ]
+then
+cd other
+echo "loading commands list..."
+./help
+fi
+if [ $request == files ]
+then
+cd other
+echo "loading additional files..."
+./browse-files
+fi
+if [ $request == cp-1 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-1
+fi
+if [ $request == cp-2 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-2
+fi
+if [ $request == cp-3 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-3
+fi
+if [ $request == cp-4 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-4
+fi
+if [ $request == cp-5 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-5
+fi
+if [ $request == cp-6 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-6
+fi
+if [ $request == cp-7 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-7
+fi
+if [ $request == cp-8 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-8
+fi
+if [ $request == cp-9 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-9
+fi
+if [ $request == cp-10 ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-10
+fi
+if [ $request == cp-all ]
+then
+echo "starting the backup function..."
+cd cp
+./cp-exe-all
+fi
+if [ $request == set-name ]
+then
+cd other
+./user-name-set
+fi

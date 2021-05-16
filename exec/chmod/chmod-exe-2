@@ -1,0 +1,6 @@
+#! /bin/bash
+cd ..
+cd apps
+chmod +x app-exe-2
+cd ..
+./app-prompt

@@ -1,0 +1,28 @@
+#! /bin/bash
+read -p "are you sure you want to delete exe-4?[y/n]" confirm
+if [ $confirm == y ]
+then
+echo "deleting exe-4..."
+cd ..
+cd apps
+rm app-exe-4
+echo "exe-4 deleted"
+fi
+if [ $confirm == Y ]
+then
+echo "deleting exe-4..."
+cd ..
+cd apps
+rm app-exe-4
+echo "exe-4 deleted"
+fi
+if [ $confirm == n ]
+then
+echo "deleting of file was cancelled by user"
+fi
+if [ $confirm == N ]
+then
+echo "deleting of file was cancelled by user"
+fi
+cd ..
+./app-prompt

@@ -1,0 +1,41 @@
+#! /bin/bash
+read -p "what file do you want to open?(type list to list files)(file names are case-sensitive) " filename
+if [ $filename == list ]
+then
+echo "[1] changelog"
+echo "[2] about"
+echo "[3] usage"
+cd ..
+./app-prompt
+fi
+if [ $filename == changelog ]
+then
+cd ..
+cd ..
+cd files
+nano changelog
+cd ..
+cd exec
+./app-prompt
+fi
+if [ $filename == about ]
+then
+cd ..
+cd ..
+cd files
+nano about
+cd ..
+cd exec
+./app-prompt
+fi
+if [ $filename == usage ]
+then
+cd ..
+cd ..
+nano usage
+cd ..
+cd exec
+./app-prompt
+fi
+cd ..
+./app-prompt

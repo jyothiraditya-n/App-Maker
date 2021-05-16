@@ -1,0 +1,46 @@
+#! /bin/bash
+read -p "are you sure you want to delete all stored executables?[y/n]" confirm
+if [ $confirm == y ]
+then
+echo "deleting all files..."
+cd ..
+cd apps
+rm app-exe-1
+rm app-exe-2
+rm app-exe-3
+rm app-exe-4
+rm app-exe-5
+rm app-exe-6
+rm app-exe-7
+rm app-exe-8
+rm app-exe-9
+rm app-exe-10
+echo "all files deleted"
+fi
+if [ $confirm == Y ]
+then
+echo "deleting all files..."
+cd ..
+cd apps
+rm app-exe-1
+rm app-exe-2
+rm app-exe-3
+rm app-exe-4
+rm app-exe-5
+rm app-exe-6
+rm app-exe-7
+rm app-exe-8
+rm app-exe-9
+rm app-exe-10
+echo "all files deleted"
+fi
+if [ $confirm == n ]
+then 
+echo "deleting cancelled by user"
+fi
+if [ $confirm == N ]
+then 
+echo "deleting cancelled by user"
+fi
+cd ..
+./app-prompt

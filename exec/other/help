@@ -1,0 +1,14 @@
+#! /bin/bash
+echo "thanks for using the app maker."
+echo "this is the list of functions:"
+echo "[1] edit-x (x=number of the executable to be edited(1-10, including 1 and 10)) example; edit-7"
+echo "[2] open-x (x=number of the executable to be run(1-10, including 1 and 10)) example; open-3"
+echo "[3] rm-x (x=nuber of the executable to be deleted(1-10, including 1 and 10, as well as 'all' to delete all executables)) example; rm-6
+exaple; rm-all"
+echo "[4] help (help)"
+echo "[5] exit (closes the app)"
+echo "[6] files (browse additional files)"
+echo "[7] cp-x (x=number of the executable to be backed up(1-10, including 1 and 10, as well as 'all' to backup all mande executables))"
+echo "[8] set-name (set the username)"
+cd ..
+./app-prompt

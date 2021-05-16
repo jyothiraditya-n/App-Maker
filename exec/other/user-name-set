@@ -1,0 +1,35 @@
+#! /bin/bash
+read -p "please wirite your name here: " name
+read -p "confirm the name[y/n] : " confirm
+if [ $confirm == y ]
+then
+cd ..
+cd ..
+cd config
+echo "writing new name..."
+echo $name > name-config
+echo "finished writing new name"
+echo "please restart the app"
+fi
+if [ $confirm == Y ]
+then
+cd ..
+cd ..
+cd config
+echo "writing new name..."
+echo $name > name-config
+echo "finished writing new name"
+echo "please restart the app"
+fi
+if [ $confirm == n ]
+then
+echo "change cancelled by user"
+echo "please retype"
+./user-name-set
+fi
+if [ $confirm == N ]
+then
+echo "change cancelled by user"
+echo "please retype"
+./user-name-set
+fi

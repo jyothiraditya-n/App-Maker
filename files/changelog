@@ -1,0 +1,57 @@
+version 1.0.8 alpha (universal)
+
+> Fixed some bugs
+
+> Slightly tweaked the UI system
+
+> Added a system for custom names in the app
+
+> Added back a new and improved backup function
+
+version 1.0.7 alpha (universal)
+
+> Fixed many bugs from the 1.0.6 update
+
+version 1.0.6 alpha (universal)
+
+> Re-coded the entire app
+
+> Added basic user interfaces in the CLI
+
+> Removed the Mac OSX and Linux specific versions
+
+> Removed the Backup fuction
+
+version 1.0.5 alpha (universal) 
+
+> fixed issues with the first run executable that caused incomplete installations
+
+> added the backup feuture
+
+> changed the location of the changelog file 
+
+> added an about file
+
+> starting the app now will first display a quick start quide file
+
+version 1.0.4 alpha (universal)
+
+> fixed issues preventing complete installation
+
+version 1.0.3 alpha (universal)
+
+> the Mac version now uses text edit instead of nano
+
+version 1.0.2 alpha (universal)
+
+> Fixed an issue with the installer that resulted in an incomplete installation
+
+version 1.0.1 alpha (universal)
+
+> changed user interface for creating files to use the text editor instead of nano for the Linux version
+
+> Increased total executables from 3 to 7
+
+dev: Jyothiraditya
+first relese: 08/01/2016
+rights: All
